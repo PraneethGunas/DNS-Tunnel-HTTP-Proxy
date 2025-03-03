@@ -1,0 +1,40 @@
+# Ignore compiled files
+*.o
+*.out
+
+# Ignore build directories
+/build/
+/bin/
+/obj/
+
+# Ignore Ruby dependencies
+/vendor/bundle/
+/.bundle/
+/Gemfile.lock
+
+# Ignore libraries installed with make
+/lib/
+/*.a
+/*.so
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore other temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
